@@ -1,0 +1,20 @@
+package id.ac.undiksha.ais.people;
+
+public class Student {
+
+	private String studentId;
+	private String name;
+	private String birthDate;
+	private boolean gender; //0 female, 1 male
+	private String address;
+	private int smtr;
+
+	private String getStudentId() {
+		return studentId;
+	}
+	
+	private void setStudentid(String studentId) {
+		this.studentId = studentId;
+	}
+	
+}

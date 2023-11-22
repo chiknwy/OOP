@@ -1,0 +1,12 @@
+package id.ac.undiksha.ais.people;
+
+public class Student {
+
+	private String studentId;
+	private String name;
+	private String birthDate;
+	private String gender;
+	private String address;
+	private String smtr;
+
+}

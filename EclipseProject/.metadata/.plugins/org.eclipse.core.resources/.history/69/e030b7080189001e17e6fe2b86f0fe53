@@ -1,0 +1,53 @@
+package id.ac.undiksha.ais;
+
+import id.ac.undiksha.ais.people.Lecturer;
+import id.ac.undiksha.ais.people.Student;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student student1 = new Student();
+		
+		student1.setStudentId("12345");
+		student1.setGender(true);
+		student1.setBirthDate("2004-04-19");
+		student1.setName("Ani");
+		student1.setSmtr(3);
+		student1.setAddress("Singaraja");
+		
+		student1.printall();
+		
+		System.out.println();
+		
+		Lecturer lecturer1 = new Lecturer();
+		lecturer1.setBirthDate("1978-04-19");
+		lecturer1.setDepartment("UNDIKSHA");
+		lecturer1.setEmployeeId("51231531");
+		lecturer1.setGender(true);
+		lecturer1.setName("Joko");
+		lecturer1.setYearsOfExperience(12);
+		lecturer1.printall();
+
+//		student1.studentId = "22152131";
+//		student1.name = "Ani";
+//		student1.birthDate = "1 January 2004";
+//		student1.address = "Singaraja";
+//		student1.gender = false;
+//		student1.smtr = 6;
+//		
+//		
+//		System.out.println(student1.name);
+//		System.out.println(student1.studentId);
+//		System.out.println(student1.birthDate);
+//		if (student1.gender) {
+//			System.out.println("Male");
+//		}
+//		else {
+//			System.out.println("Female");
+//		}
+//		System.out.println(student1.smtr);
+//		System.out.println(student1.address);
+	}
+
+}
