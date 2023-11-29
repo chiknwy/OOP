@@ -1,0 +1,43 @@
+package id.ac.undiksha.ais.people;
+
+public class Human {
+	private String name;
+    private String birthDate;
+    private boolean gender;
+    private String address;
+    
+    
+    public Human() {
+    	this.name = "Please input your name!";
+    	this.birthDate =  "Please input your birthdate";
+    	this.gender = false;
+    	this.address = "please input your addresses";
+    }
+    
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getBirthDate() {
+		return birthDate;
+	}
+	public void setBirthDate(String birthDate) {
+		this.birthDate = birthDate;
+	}
+	public boolean isGender() {
+		return gender;
+	}
+	public void setGender(boolean gender) {
+		this.gender = gender;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+    
+    
+}

@@ -18,6 +18,23 @@ public class Main {
 		
 		student1.printall();
 		
+		System.out.println("--------");
+		
+		Student student2 = new Student();
+		student2.printall();
+		
+		System.out.println("--------");
+		Student student3 = new Student(
+				"Budi",
+				"4 April 2000",
+				true,
+				"Gianyar",
+				"2215100103",
+				3
+				);
+		student3.printall();
+
+		
 		System.out.println();
 		
 		Lecturer lecturer1 = new Lecturer();
@@ -28,7 +45,22 @@ public class Main {
 		lecturer1.setName("Joko");
 		lecturer1.setYearsOfExperience(12);
 		lecturer1.printall();
-
+		
+		System.out.println("--------");
+		Lecturer lecturer2 = new Lecturer();
+		lecturer2.printall();
+		
+		System.out.println("--------");
+		Lecturer lecturer3 = new Lecturer(
+				"Kojo",
+				"51235123",
+				"Undiksha",
+				6,
+				"7 December 1978",
+				"Singaraja",
+				true);
+		lecturer3.printall();
+		
 //		student1.studentId = "22152131";
 //		student1.name = "Ani";
 //		student1.birthDate = "1 January 2004";

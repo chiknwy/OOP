@@ -1,0 +1,52 @@
+package id.ac.undiksha.ais.people;
+
+public class Student extends Human {
+
+    private String studentId;
+//    private String name;
+//    private String birthDate;
+//    private boolean gender; // 0 female, 1 male
+//    private String address;
+    private int smtr;
+
+    public Student() {
+    	this.studentId = "Please input your user ID";
+    	this.smtr = 0;
+    }
+    
+    
+    
+ 
+    public String getStudentId() {
+		return studentId;
+	}
+
+
+
+	public void setStudentId(String studentId) {
+		this.studentId = studentId;
+	}
+
+
+
+	public int getSmtr() {
+		return smtr;
+	}
+
+
+
+	public void setSmtr(int smtr) {
+		this.smtr = smtr;
+	}
+	
+	
+
+
+
+	public void printall() {
+        System.out.println("Student ID: " + this.studentId);
+        System.out.println("Semester: " + this.smtr);
+    }
+
+   
+}
