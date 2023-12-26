@@ -1,0 +1,12 @@
+package id.ac.undiksha.ais.organizations;
+
+public interface Department {
+
+	public void setDepartnmetName();
+	public String getDepartmentName();
+	
+	public void setDeparmentID();
+	public String getDepertmentID();
+	
+	
+}

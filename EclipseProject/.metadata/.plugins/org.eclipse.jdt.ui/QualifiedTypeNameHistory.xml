@@ -3,4 +3,5 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="id.ac.undiksha.ais.people.Lecturer"/>
     <fullyQualifiedTypeName name="java.lang.LinkageError"/>
+    <fullyQualifiedTypeName name="id.ac.undiksha.ais.organizations.Department"/>
 </qualifiedTypeNameHistroy>

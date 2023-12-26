@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=WinByGoldFish
+comment1.params=winnerName
+comment1.target=WinByGoldFish(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ WinByGoldFish.\r\n\ \r\n\ @param\ winnerName\ The\ name\ of\ the\ player\ who\ won\ (Fish\ or\ Fish2).\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ WinByGoldFish\ wants\ to\ do.\r\n\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

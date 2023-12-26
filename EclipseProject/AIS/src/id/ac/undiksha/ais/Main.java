@@ -1,6 +1,7 @@
 package id.ac.undiksha.ais;
 
 import id.ac.undiksha.ais.people.Lecturer;
+import id.ac.undiksha.ais.people.Human;
 import id.ac.undiksha.ais.people.Student;
 public class Main {
 
@@ -15,10 +16,27 @@ public class Main {
 		student1.setName("Ani");
 		student1.setSmtr(3);
 		student1.setAddress("Singaraja");
-		
+		student1.prodi.setDepartmentName("Ilmu Komputer");
+		student1.prodi.getFacultyCode();
+				
 		student1.printall();
 		
+		System.out.println("-----disinii---");
+
+//		Student studentH = new Human();
+		
+		Human human = new Student();
+		
+		human.setName("Chiknwy");
+		human.setAddress("Singaraja");
+		human.setGender(true);
+		human.setBirthDate("19 April 2004");
+		
+		human.printall();
+		
 		System.out.println("--------");
+
+		
 		
 		Student student2 = new Student();
 		student2.printall();

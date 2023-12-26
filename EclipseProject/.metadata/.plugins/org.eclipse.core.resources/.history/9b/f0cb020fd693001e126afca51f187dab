@@ -1,0 +1,8 @@
+package id.ac.undiksha.ais.organizations;
+
+public class StudyProgram {
+
+	private String studyProgramId;
+	private String studyProgramName;
+	
+}
