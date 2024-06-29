@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Food
+comment1.params=
+comment1.target=Food()
+comment2.params=foodSpeed
+comment2.target=Food(int)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ moveTowardsEdgeAndRemove()
+comment5.params=
+comment5.target=void\ moveAround()
+numComments=6

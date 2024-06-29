@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Forbiden
+comment1.params=
+comment1.target=Forbiden()
+comment2.params=forbidenSpeed
+comment2.target=Forbiden(int)
+comment3.params=
+comment3.target=void\ act()
+numComments=4

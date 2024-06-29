@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Shrimp
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Shrimp\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=foodSpeed
+comment1.target=Shrimp(int)
+comment2.params=statics
+comment2.target=Shrimp(boolean)
+comment3.params=
+comment3.target=void\ act()
+numComments=4

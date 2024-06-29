@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Shark
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Shark\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=sharkSpeed
+comment1.target=Shark(int)
+comment2.params=statics
+comment2.target=Shark(boolean)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ moveTowardsEdgeAndRemove()
+comment5.params=
+comment5.target=void\ moveAround()
+comment6.params=fishes
+comment6.target=void\ moveTowardsFish(java.util.List)
+comment7.params=
+comment7.target=void\ touchFish()
+numComments=8

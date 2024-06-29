@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Scoreboard
+comment1.params=player
+comment1.target=Scoreboard(java.lang.String)
+comment2.params=points\ winner
+comment2.target=void\ addToScore(int,\ java.lang.String)
+comment3.params=player
+comment3.target=void\ updateImage(java.lang.String)
+numComments=4
